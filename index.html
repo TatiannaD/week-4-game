@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week-4-Game</title>
+	<!--Reset style sheet-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!--CSS Style Sheet-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--jQuery-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="page-header">
+		<h1>Disney Princess Collector</h1>
+	</div>
+	<div class=" container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel panel-default">
+         			<div class="panel-heading">
+						<h3 class="panel-title">Instructions</h3>
+					</div>
+					<div class="panel-body">
+						<p>At the start of the game you will given a Target Score. Click on each princess to make your score match the target score. Each princess has a different value.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="panel panel-default">
+         			<div class="panel-heading">
+            			<h3 class="panel-title">Game Stats</h3>	
+            	</div>
+            	<div class="panel-body">
+					<h4>Target Score:</h4><h4 id="target"></h4>
+					<h4>Your Score:</h4><h4 id="total"></h4>
+					<h4>Wins:</h4><h4 id="wins"></h4>
+					<h4>Losses:</h4><h4 id="losses"></h4>
+					
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+         			<div class="panel-heading">
+            			<h3 class="panel-title">Disney Princess</h3>	
+				</div>
+				<div class="panel-body">
+					<img class="princess" id="moana" src="assets/images/moana.jpg">
+					<img class="princess" id="elsa" src="assets/images/elsa.png">
+					<img class="princess" id="rapunzel" src="assets/images/rapunzel.jpg">
+					<img class="princess" id="tiana" src="assets/images/tiana.jpeg">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
